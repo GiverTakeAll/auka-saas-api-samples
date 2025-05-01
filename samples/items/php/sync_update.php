@@ -51,8 +51,8 @@ function createBaseItem() {
         'label_color' => '#E67050',
         'image_url' => 'https://th.bing.com/th/id/OIG1.54KCbwld1CFqClrd_Rb0?pid=ImgGn',
         'tags' => ['xxx小学校', '東京駅'],
-        'created_at' => '2024-01-01T00:00:00Z',
-        'updated_at' => '2024-01-02T00:00:00Z',
+        'created_at' => '2024-01-01T09:00:00+0900',
+        'updated_at' => '2024-01-01T09:00:00+0900',
         'url' => 'http://auka.jp/',
         'custom_fields' => [
             'price' => '5,000万円',
