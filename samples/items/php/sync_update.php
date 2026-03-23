@@ -53,12 +53,27 @@ function createBaseItem() {
         'tags' => ['xxx小学校', '東京駅'],
         'created_at' => '2024-01-01T09:00:00+0900',
         'updated_at' => '2024-01-01T09:00:00+0900',
-        'url' => 'http://auka.jp/',
+        'url' => 'https://auka.jp/',
         'custom_fields' => [
             'price' => '5,000万円',
             'address' => '東京都千代田区千代田1-1-1'
         ],
-        'button_label' => '詳細を見る',
+        'item_additional_buttons' => [
+            [
+                'action_type' => 'uri',
+                'button_label' => '物件の詳細を見る▶',
+                'button_color' => '#707C8F',
+                'url' => 'https://auka.jp/media/?inquiry',
+                'position' => 1
+            ],
+            [
+                'action_type' => 'inquiry_form',
+                'button_label' => '資料請求はこちら▶',
+                'button_color' => '#4AA32E',
+                'url' => 'https://auka.jp/media/?contact',
+                'position' => 2
+            ]
+        ],
         'position' => 1
     ];
 }
