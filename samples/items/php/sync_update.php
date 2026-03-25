@@ -70,7 +70,6 @@ function createBaseItem() {
                 'action_type' => 'inquiry_form',
                 'button_label' => '資料請求はこちら▶',
                 'button_color' => '#4AA32E',
-                'url' => 'https://auka.jp/media/?contact',
                 'position' => 2
             ]
         ],
